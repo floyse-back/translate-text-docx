@@ -3,8 +3,6 @@ from test import printHelloWorld
 
 
 
-if '__main__'==__name__:
-    printHelloWorld()
-    printHelloWorld()
-    printHelloWorld()
-    print('renobe')
+def main():
+    for i in range(10):
+        print('Я люблю програмировать')
